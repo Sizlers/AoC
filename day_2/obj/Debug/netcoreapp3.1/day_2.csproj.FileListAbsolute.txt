@@ -1,0 +1,12 @@
+/Users/tomsisman/Documents/Code/Learning/AoC2020/day_2/bin/Debug/netcoreapp3.1/day_2.deps.json
+/Users/tomsisman/Documents/Code/Learning/AoC2020/day_2/bin/Debug/netcoreapp3.1/day_2.runtimeconfig.json
+/Users/tomsisman/Documents/Code/Learning/AoC2020/day_2/bin/Debug/netcoreapp3.1/day_2.runtimeconfig.dev.json
+/Users/tomsisman/Documents/Code/Learning/AoC2020/day_2/bin/Debug/netcoreapp3.1/day_2.dll
+/Users/tomsisman/Documents/Code/Learning/AoC2020/day_2/bin/Debug/netcoreapp3.1/day_2.pdb
+/Users/tomsisman/Documents/Code/Learning/AoC2020/day_2/obj/Debug/netcoreapp3.1/day_2.csprojAssemblyReference.cache
+/Users/tomsisman/Documents/Code/Learning/AoC2020/day_2/obj/Debug/netcoreapp3.1/day_2.AssemblyInfoInputs.cache
+/Users/tomsisman/Documents/Code/Learning/AoC2020/day_2/obj/Debug/netcoreapp3.1/day_2.AssemblyInfo.cs
+/Users/tomsisman/Documents/Code/Learning/AoC2020/day_2/obj/Debug/netcoreapp3.1/day_2.csproj.CoreCompileInputs.cache
+/Users/tomsisman/Documents/Code/Learning/AoC2020/day_2/obj/Debug/netcoreapp3.1/day_2.dll
+/Users/tomsisman/Documents/Code/Learning/AoC2020/day_2/obj/Debug/netcoreapp3.1/day_2.pdb
+/Users/tomsisman/Documents/Code/Learning/AoC2020/day_2/obj/Debug/netcoreapp3.1/day_2.genruntimeconfig.cache
