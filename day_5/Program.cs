@@ -21,7 +21,7 @@ namespace day_5
             seatIds.Reverse();
             Console.WriteLine("The highest seat ID is: {0}", seatIds[0]);
 
-            int count = 951;
+            int count = seatIds[0];
 
             foreach (int id in seatIds)
             {
