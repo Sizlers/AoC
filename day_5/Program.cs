@@ -13,8 +13,7 @@ namespace day_5
             foreach (string seat in seats)
             {
                 var boardingpass = new BoardingPass(seat);
-                //using an underscore for "_seatId" seems weird, am I using it wrong?
-                seatIds.Add(boardingpass._seatId);
+                seatIds.Add(boardingpass.seatId);
             }
             //this isn't great, there must be a better way of doing this?
             seatIds.Sort();
@@ -40,7 +39,7 @@ namespace day_5
         int _columnUpperHalf = 127;
         int _rowLowerHalf = 0;
         int _rowUpperHalf = 7;
-        public int _seatId;
+        public int seatId;
         public BoardingPass(string code)
         {
             char[] codeArray = code.ToCharArray();
@@ -48,7 +47,7 @@ namespace day_5
             {
                 eliminateZone(zone);
             }
-            _seatId = _columnUpperHalf * 8 + _rowUpperHalf;
+            seatId = _columnUpperHalf * 8 + _rowUpperHalf;
         }
         void eliminateZone(char zone)
         {
