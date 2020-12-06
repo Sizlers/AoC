@@ -13,7 +13,7 @@ namespace day_5
             foreach (string seat in seats)
             {
                 var boardingpass = new BoardingPass(seat);
-                seatIds.Add(boardingpass.seatId);
+                seatIds.Add(boardingpass.SeatId);
             }
             //this isn't great, there must be a better way of doing this?
             seatIds.Sort();
@@ -39,7 +39,7 @@ namespace day_5
         int _columnUpperHalf = 127;
         int _rowLowerHalf = 0;
         int _rowUpperHalf = 7;
-        public int seatId;
+        public int SeatId { get; set; }
         public BoardingPass(string code)
         {
             char[] codeArray = code.ToCharArray();
@@ -47,7 +47,7 @@ namespace day_5
             {
                 eliminateZone(zone);
             }
-            seatId = _columnUpperHalf * 8 + _rowUpperHalf;
+            SeatId = _columnUpperHalf * 8 + _rowUpperHalf;
         }
         void eliminateZone(char zone)
         {
